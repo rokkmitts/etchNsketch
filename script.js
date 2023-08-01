@@ -50,8 +50,10 @@ function clearPackage(parent) {
 // buttons
 refreshBtn.addEventListener("click", function () {
   clearPackage(pixelPackage);
+  clearPackage(msgPackage);
 });
 submitBtn.addEventListener("click", function () {
   clearPackage(pixelPackage);
+  clearPackage(msgPackage);
   formPackage();
 });
