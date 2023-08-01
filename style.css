@@ -3,6 +3,33 @@ body,
 html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100;
+  height: 100;
+}
+
+#grid-container {
+  display: grid;
+  height: auto;
+  border: dotted 3px darkcyan;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.divPixel {
+  height: 15px;
+  width: 15px;
+  border: solid red 1px;
+  background-color: plum;
+}
+
+.divPixel-Pop {
+  height: 15px;
+  width: 15px;
+  border: solid red 1px;
+  background-color: plum;
+}
+.divPixel :hover {
 }
